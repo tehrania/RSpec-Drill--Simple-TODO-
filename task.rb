@@ -1,5 +1,7 @@
+
 class Task
   attr_reader :description
+  attr_accessor :complete
 
   def initialize(description)
     @description = description
